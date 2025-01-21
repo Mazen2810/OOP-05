@@ -1,5 +1,6 @@
 ﻿using Assignment.First_Project;
 using Assignment.Second_Project;
+using Assignment.Third_Project;
 
 namespace Assignment
 {
@@ -55,6 +56,44 @@ namespace Assignment
             // X = Maths.Divide(10, 20);
             //Console.WriteLine(X);
             #endregion
+
+            #region Third Project
+           
+            //Console.WriteLine("Enter your Type (Regular | Premium | Guest)");
+            //string? UserType = Console.ReadLine();
+
+
+            //int Price = GetValidInteger("Enter The Product Price : ");
+            //int Quantity = GetValidInteger("Enter The Product Quantity : ");
+            //if(UserType == "Regular" || UserType == "regular")
+            //{
+            //    RegularUser regular = new RegularUser("Ahmed");
+            //    Discount discount = regular.GetDiscount();
+            //    decimal Discount = discount.CalculateDiscount(Price, Quantity);
+
+            //    Console.WriteLine($"The Total Discount is {Discount}, and the Final Price is {Price - Discount}");
+            //}
+            //else if (UserType == "Premium" || UserType == "premium")
+            //{
+            //    PremiumUser premium = new PremiumUser("Ahmed");
+            //    Discount discount = premium.GetDiscount();
+            //    decimal Discount = discount.CalculateDiscount(Price, Quantity);
+
+            //    Console.WriteLine($"The Total Discount is {Discount}, and the Final Price is {Price - Discount}");
+            //}
+            //else if (UserType == "Guest" || UserType == "guest")
+            //{
+            //    GuestUser guest = new GuestUser("Ahmed");
+            //    Discount discount = guest.GetDiscount();
+            //    decimal Discount = discount.CalculateDiscount(Price, Quantity);
+
+            //    Console.WriteLine($"The Total Discount is {Discount}, and the Final Price is {Price - Discount}");
+            //}
+            //else
+            //    Console.WriteLine($"This UserType {UserType} is Not Valid");
+           
+                
+            #endregion
         }
         public static int GetValidInteger(string Message)
         {
@@ -73,5 +112,5 @@ namespace Assignment
             return result;
         }
     }
-    
+
 }
