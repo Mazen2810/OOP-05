@@ -1,4 +1,5 @@
 ﻿using Demo.Abstraction;
+using Demo.Static;
 
 namespace Demo
 {
@@ -7,7 +8,7 @@ namespace Demo
 
         static void PrintShapeInfo(Shape shape)
         {
-            
+
         }
         static void Main(string[] args)
         {
@@ -38,6 +39,23 @@ namespace Demo
             ///Console.WriteLine($"Circle Peri = {circleperi}");
             ///Console.WriteLine($"Circle Area = : {circlleArea}"); 
             #endregion
+
+
+            #region Static [Class, Atrribute, Property, Constructor, Method] and Const
+
+            //Utility U01 = new Utility(1, 2);
+            //Utility U02 = new Utility(5, 20);
+
+            // The result of calling this method will not be different by the difference of the Object
+            /// Console.WriteLine(Utility.CmToInch(23));
+            /// Console.WriteLine(Utility.CmToInch(251));
+
+            // Console.WriteLine($"Circle Area = {Utility.CalcCircleArea(10)}");
+            // Console.WriteLine($"Circle Area = {Utility.CalcCircleArea(10)}");
+
+            #endregion
+
+
         }
     }
 }
