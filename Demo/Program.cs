@@ -1,4 +1,5 @@
 ﻿using Demo.Abstraction;
+using Demo.Partial;
 using Demo.Sealed;
 using Demo.Static;
 
@@ -67,7 +68,15 @@ namespace Demo
             //str = new ImmutableString("Mohamed"); 
             #endregion
 
-
+            #region Partial [Class, struct, Interface, Method]
+            //Employee employee = new Employee()
+            //{
+            //    Id = 1234,
+            //    Name = "Ahmed",
+            //    Age = 23,
+            //    Address = "Alexandria"
+            //}; 
+            #endregion
         }
     }
 }
