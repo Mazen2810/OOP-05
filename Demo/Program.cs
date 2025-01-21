@@ -1,4 +1,5 @@
 ﻿using Demo.Abstraction;
+using Demo.Sealed;
 using Demo.Static;
 
 namespace Demo
@@ -8,6 +9,12 @@ namespace Demo
 
         static void PrintShapeInfo(Shape shape)
         {
+
+        }
+
+        static void CalcPayment(PaymentProcessor processor)
+        {
+            processor.ProcessPayment(100);
 
         }
         static void Main(string[] args)
@@ -53,6 +60,11 @@ namespace Demo
             // Console.WriteLine($"Circle Area = {Utility.CalcCircleArea(10)}");
             // Console.WriteLine($"Circle Area = {Utility.CalcCircleArea(10)}");
 
+            #endregion
+
+            #region Sealed [Class, Method, Property]
+            //ImmutableString str = new ImmutableString("Ahmed");
+            //str = new ImmutableString("Mohamed"); 
             #endregion
 
 
