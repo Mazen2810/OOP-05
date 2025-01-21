@@ -1,4 +1,5 @@
 ﻿using Assignment.First_Project;
+using Assignment.Second_Project;
 
 namespace Assignment
 {
@@ -42,6 +43,17 @@ namespace Assignment
             //P2 = (Point3D) P1.Clone();
 
             //Console.WriteLine(P2); 
+            #endregion
+
+            #region Second Project
+            //int X = Maths.Add(10, 20);
+            //Console.WriteLine(X);
+            // X = Maths.Subtract(10, 20);
+            //Console.WriteLine(X);
+            // X = Maths.Multiply(10, 20);
+            //Console.WriteLine(X);
+            // X = Maths.Divide(10, 20);
+            //Console.WriteLine(X);
             #endregion
         }
         public static int GetValidInteger(string Message)
